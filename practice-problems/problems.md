@@ -1,12 +1,5 @@
 # Operating System Practice Problems
 
-**Module:** DAC07 – Operating System (Shell Programming)  
-**Institution:** Centre for Development of Advanced Computing (C-DAC) Bangalore  
-**Course:** Post Graduate Diploma in Advanced Computing (PG-DAC)  
-**Batch:** August 2025  
-**Date & Time:** 06 Nov 2025, 1330 hrs - 1530 hrs  
-**Duration:** 2 hours
-
 ---
 
 ## Question 1: Log File Processing with grep and sed
@@ -94,20 +87,3 @@ Inside this directory... *(Note: Part b appears to be incomplete in the source d
 
 ---
 
-## Instructions
-
-- All solutions should use standard Linux/Unix commands
-- Shell scripts should be executable and follow proper scripting conventions
-- Test all commands and scripts before submission
-- Document your code with appropriate comments
-
-## Submission Guidelines
-
-- Provide exact commands for command-line tasks
-- Include complete, working shell scripts
-- Test all solutions thoroughly
-- Ensure proper file permissions for scripts (chmod +x)
-
----
-
-**Good Luck!** 🚀
