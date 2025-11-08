@@ -1,4 +1,9 @@
-This is about understanding the different types of conditional operators in Bash. Let me explain why `(( ))` and `[[ ]]` work in different contexts:
+
+**Exit and Break Difference**
+- `exit` - Terminates the entire script (and returns control to the shell)
+- `break` - Exits only the current loop and continues executing any code after the loop
+
+**This is about understanding the different types of conditional operators in Bash. Let me explain why `(( ))` and `[[ ]]` work in different contexts:**
 
 ## The Key Difference
 
