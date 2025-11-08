@@ -70,6 +70,7 @@ A comprehensive reference guide for Linux commands compiled from multiple source
 | Command | Description |
 |---------|-------------|
 | `wc <file>` | Count lines, words, bytes |
+| `wc -l <file>` | Count lines |
 | `sort <file>` | Sort lines in a file |
 | `uniq <file>` | Remove duplicate adjacent lines |
 | `diff <file1> <file2>` | Compare differences in files |
@@ -149,7 +150,8 @@ A comprehensive reference guide for Linux commands compiled from multiple source
 | `killall <name>` | Kill all processes by name |
 | `pkill <pattern>` | Kill all processes matching pattern |
 | `nice <command>` | Set process priority |
-| `renice <priority> <pid>` | Change process priority |
+| `renice <prioritwc -l "set1-5.sh"
+y> <pid>` | Change process priority |
 | `bg` | Resume stopped job in background |
 | `fg` | Bring most recent job to foreground |
 | `jobs` | List stopped or background jobs |
