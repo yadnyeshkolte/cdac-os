@@ -8,5 +8,4 @@ then echo "$num1 < $num2 (num 2 is big)"
 elif (( $num1>$num2 ))
 then echo "$num1 > $num2 (num 1 is bigger)"
 else echo "Both are same numbers"
-fi
-~       
+fi      
