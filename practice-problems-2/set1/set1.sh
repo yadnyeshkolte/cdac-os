@@ -2,8 +2,7 @@
 echo "Hello world"
 
 #2
-
-echo "$date"
+echo "$(date)"
 
 #3
 
