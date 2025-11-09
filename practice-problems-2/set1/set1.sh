@@ -2,7 +2,7 @@
 echo "Hello world"
 
 #2
-echo "$(date)"
+echo "$(date +"%Y-%m-%d %H:%M:%S")"
 
 #3
 
