@@ -1,20 +1,16 @@
 
-
-echo -n "Enter the number to check: "
-read num
-
-oldnum=$num
-newnum=0
-
-while (( $oldnum>0 ))
+echo -n "Enter the string: "
+read input
+string=""
+len=${#input}
+(( len-- ))
+for (( i=$len;i>=0;i-- ))
 do
-	(( i=$oldnum%10 ))
-	(( newnum=$newnum*10+$i ))
-	(( oldnum=$oldnum/10 ))
+        string="$string${input:i:1}"
 done
 
-if (( $newnum==$num ))
-then echo "It is a palandrome number"
-else echo "It is not a palandrome number"
+if [[ "$string" == "$input" ]]
+then echo "it is a palandrome"
+else echo "it isnot a palandrom"
 fi
 
